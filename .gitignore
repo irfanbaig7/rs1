@@ -1,0 +1,149 @@
+# ===== Dependencies =====
+node_modules/
+jspm_packages/
+bower_components/
+.pnp
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# ===== Environment variables / Secrets =====
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+serviceAccountKey.json
+firebase-adminsdk*.json
+
+# ===== Build output =====
+build/
+dist/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+.output/
+.vercel/
+.netlify/
+.turbo/
+.cache/
+.parcel-cache/
+.vite/
+.docusaurus/
+.serverless/
+.webpack/
+.fusebox/
+.dynamodb/
+storybook-static/
+
+# ===== Logs =====
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# ===== Runtime / PID =====
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ===== Testing / Coverage =====
+coverage/
+.nyc_output/
+*.lcov
+lib-cov/
+.jest/
+cypress/videos/
+cypress/screenshots/
+playwright-report/
+test-results/
+
+# ===== Caches =====
+.npm
+.eslintcache
+.stylelintcache
+.node_repl_history
+*.tsbuildinfo
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.temp/
+.tmp/
+tmp/
+temp/
+
+# ===== Uploads / User generated files =====
+uploads/
+public/uploads/
+*.tgz
+
+# ===== Database files =====
+*.sqlite
+*.sqlite3
+*.db
+dump.rdb
+data/db/
+mongod.lock
+
+# ===== Docker =====
+docker-compose.override.yml
+.docker/
+
+# ===== Python (agar koi script/ML service ho) =====
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+env/
+.ipynb_checkpoints/
+
+# ===== OS files =====
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ===== Editors / IDEs =====
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.history/
+
+# ===== Misc =====
+*.bak
+*.orig
+*.rej
+*.old
+*.zip
+*.rar
+*.7z
+.terraform/
+.vagrant/
